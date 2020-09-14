@@ -1,0 +1,32 @@
+/*IDS */
+
+#principal {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#titulo-flex {
+
+    color: red;
+    
+}
+
+
+/*Classes */
+.cabeca {
+    border: 50px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    background-image: url("src/Hambúrguer-vegetal-da-Marfrig_destaque.png");
+    background-clip: border-box;
+    background-size: cover;
+}
+
+.cabeca > div{
+    line-height: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+
+/* TAGS */
